@@ -1,0 +1,85 @@
+body {
+  background-color: white;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Estonia", cursive;
+  font-family: "Shippori Antique", sans-serif;
+}
+p {
+  width: 27%;
+}
+#metaverse {
+  background-color: rgb(91, 140, 173);
+  width: 95%;
+}
+
+#div1 {
+  background-image: url(https://earthsky.org/upl/2021/10/Andromeda-Galaxy_Mainak-Chakraborty_Kolkata-India_Oct-3-2021-e1635259439900.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 75%;
+  background-size: cover;
+  color: white;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-size: xx-large;
+}
+#mission {
+  background-color: #4a6db9;
+  width: 95%;
+}
+
+#products {
+  background-color: #849fdb;
+  width: 95%;
+}
+
+#culture {
+  background-color: #6782a5;
+  width: 95%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #3765e4;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid rgb(255, 255, 248);
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.insta_img {
+  justify-content: right;
+}
